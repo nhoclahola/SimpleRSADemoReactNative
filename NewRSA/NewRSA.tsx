@@ -139,4 +139,4 @@ function decryptRSA(base64Ciphertext : string, privateKeyBase64 : string) {
     return decryptedMessage; // Trả về chuỗi gốc
 }
 
-export { generateRSAKeys, encryptRSA, decryptRSA};
+export { generateRSAKeys, encryptRSA, decryptRSA };
